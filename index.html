@@ -267,6 +267,9 @@
             box-shadow: 0 10px 40px rgba(99, 102, 241, 0.6);
         }
 
+
+
+        
         /* KPI Cards */
         .kpi-grid {
             display: grid;
@@ -337,13 +340,6 @@
             margin-bottom: 4rem;
         }
 
-        /* Dashboard Cards */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
 
         .metric-card {
             background: var(--card-bg);
@@ -776,9 +772,8 @@
             <div class="logo">Loay Ayman</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#dashboard">Dashboard</a></li>
+                                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -797,296 +792,45 @@
             <!-- <CHANGE> Added circular profile photo above name -->
             <img src="profile.jpg" class="profile-photo" alt="Loay Ayman Mohamed profile photo" />
             <h1 class="hero-title">Loay Ayman</h1>
-            <p class="hero-subtitle">Data Analyst · Egypt</p>
+            <p class="hero-subtitle">Data Analyst </p>
             <div class="tech-stack">
                 <span><i class="fas fa-code" style="color: #60a5fa;"></i> Python</span>
                 <span>|</span>
                 <span><i class="fas fa-database" style="color: #a78bfa;"></i> SQL</span>
                 <span>|</span>
-                <span><i class="fas fa-chart-bar" style="color: #ec4899;"></i> Power BI</span>
+                <span><i class="fas fa-chart-bar" style="color: #259b50;"></i> Excel </span>
                 <span>|</span>
-                <span><i class="fas fa-chart-line" style="color: #22d3ee;"></i> Data Visualization</span>
+                <span><i class="fas fa-chart-line" style="color: #d327ab;"></i> Data Visualization</span>
             </div>
             <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
-                <!-- CV download now points directly to local file in project folder -->
+                <!-- Resume -->
                 <a href="cv.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary">
                     <i class="fas fa-download"></i>
-                    Download CV
+                    Resume
                 </a>
-                <a href="https://www.datacamp.com/portfolio/loayayman" target="_blank" rel="noopener noreferrer" class="btn-primary" style="animation: none; box-shadow: 0 0 25px rgba(56, 189, 248, 0.4); background: linear-gradient(135deg, #0ea5e9, #22c55e);">
-                    <i class="fas fa-chart-pie"></i>
-                    View DataCamp Portfolio
+                  <!-- GitHub -->
+                 <a href="https://github.com/loayayman" target="_blank" rel="noopener noreferrer" class="social-link">
+                 <i class="fab fa-github"></i>
+                 </a>
+                 <!-- LinkedIn -->
+                  <a href="https://www.linkedin.com/in/loayaymaan/" target="_blank" rel="noopener noreferrer" class="social-link">
+                 <i class="fab fa-linkedin-in"></i>
                 </a>
+                <!-- Gmail -->
+                 <a href="mailto:loayaymaan@gmail.com" class="social-link">
+                 <i class="fas fa-envelope"></i>
+                </a>
+                
             </div>
             <p style="color: var(--muted); font-size: 0.95rem;">
-                <i class="fas fa-phone"></i> <a href="tel:+201029248463" style="color: inherit; text-decoration: none;">+201029248463</a> ·
-                <i class="fas fa-envelope"></i> <a href="mailto:loayaymaan@gmail.com" style="color: inherit; text-decoration: none;">loayaymaan@gmail.com</a> ·
-                <i class="fas fa-location-dot"></i> Egypt
+               <i class="fas fa-phone"></i> <a href="tel:+201029248463" style="color: inherit; text-decoration: none;">+201029248463</a>
             </p>
-        </div>
-    </section>
-
-    <!-- KPI Cards -->
-    <div class="kpi-grid">
-        <!-- <CHANGE> Updated Projects Completed to 10+ -->
-        <div class="kpi-card">
-            <div class="kpi-icon" style="background: linear-gradient(135deg, #a855f7, #ec4899);">
-                <i class="fas fa-list-check"></i>
-            </div>
-            <div class="kpi-value">10+</div>
-            <div class="kpi-label">Projects Completed</div>
-        </div>
-        <!-- <CHANGE> Updated Tools Used to show 5+ Tools Used -->
-        <div class="kpi-card">
-            <div class="kpi-icon" style="background: linear-gradient(135deg, #6366f1, #a855f7);">
-                <i class="fas fa-toolbox"></i>
-            </div>
-            <div class="kpi-value">5+</div>
-            <div class="kpi-label">Tools Used</div>
-        </div>
-    </div>
-
-    <!-- Dashboard Section -->
-    <section id="dashboard">
-        <h2 class="section-title">Data Analytics Overview</h2>
-        <p class="section-subtitle">Real-time insights and performance metrics</p>
-
-        <div class="dashboard-grid">
-            <!-- <CHANGE> Updated dashboard metrics to reflect analytics skills and experience -->
-            <div class="metric-card">
-                <div class="metric-header">
-                    <span class="metric-label">Analytics Skills</span>
-                    <i class="fas fa-chart-line" style="color: #10b981; font-size: 1.5rem;"></i>
-                </div>
-                <div class="metric-value">5</div>
-                <div class="metric-change positive">Core skill categories</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-header">
-                    <span class="metric-label">Real Experience</span>
-                    <i class="fas fa-database" style="color: #facc15; font-size: 1.5rem;"></i>
-                </div>
-                <div class="metric-value">10+</div>
-                <div class="metric-change" style="color: #facc15;">Datasets analyzed</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-header">
-                    <span class="metric-label">Project Experience</span>
-                    <i class="fas fa-bullseye" style="color: #60a5fa; font-size: 1.5rem;"></i>
-                </div>
-                <div class="metric-value">3</div>
-                <div class="metric-change" style="color: #60a5fa;">Featured end-to-end work</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-header">
-                    <span class="metric-label">Continuous Learning</span>
-                    <i class="fas fa-award" style="color: #a78bfa; font-size: 1.5rem;"></i>
-                </div>
-                <div class="metric-value">7</div>
-                <div class="metric-change" style="color: #a78bfa;">Professional certifications earned</div>
-            </div>
-        </div>
-
-        <div class="charts-grid">
-            <div class="chart-card">
-                <h3 class="chart-title">
-                    <i class="fas fa-brain" style="color: #a78bfa;"></i>
-                    Skills Proficiency
-                </h3>
-                <div class="radar-chart">
-                    <svg viewBox="0 0 200 200" style="width: 100%; max-width: 300px; height: 300px;">
-                        <defs>
-                            <linearGradient id="radarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.6" />
-                                <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0.6" />
-                            </linearGradient>
-                        </defs>
-                        <circle cx="100" cy="100" r="20" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-                        <circle cx="100" cy="100" r="35" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-                        <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-                        <circle cx="100" cy="100" r="65" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-                        <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
-                        <polygon points="100,30 160,70 150,130 50,130 40,70" fill="url(#radarGrad)" stroke="#6366f1" stroke-width="2"/>
-                        <text x="100" y="20" text-anchor="middle" fill="#fff" font-size="11">Python</text>
-                        <text x="170" y="75" text-anchor="start" fill="#fff" font-size="11">SQL</text>
-                        <text x="160" y="140" text-anchor="start" fill="#fff" font-size="11">Power BI</text>
-                        <text x="40" y="140" text-anchor="end" fill="#fff" font-size="11">Excel</text>
-                        <text x="30" y="75" text-anchor="end" fill="#fff" font-size="11">Git</text>
-                    </svg>
-                </div>
-            </div>
-
-            <div class="chart-card">
-                <h3 class="chart-title">
-                    <i class="fas fa-chart-bar" style="color: #60a5fa;"></i>
-                    Tech Usage Intensity
-                </h3>
-                <div class="bar-chart">
-                    <!-- <CHANGE> Updated skill proficiency percentages to real values -->
-                    <div class="bar-item">
-                        <div class="bar-header">
-                            <span>Python</span>
-                            <span style="color: #94a3b8;">70%</span>
-                        </div>
-                        <div class="bar-bg">
-                            <div class="bar-fill" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                    <div class="bar-item">
-                        <div class="bar-header">
-                            <span>SQL</span>
-                            <span style="color: #94a3b8;">65%</span>
-                        </div>
-                        <div class="bar-bg">
-                            <div class="bar-fill" style="width: 65%;"></div>
-                        </div>
-                    </div>
-                    <div class="bar-item">
-                        <div class="bar-header">
-                            <span>Power BI</span>
-                            <span style="color: #94a3b8;">60%</span>
-                        </div>
-                        <div class="bar-bg">
-                            <div class="bar-fill" style="width: 60%;"></div>
-                        </div>
-                    </div>
-                    <div class="bar-item">
-                        <div class="bar-header">
-                            <span>Excel</span>
-                            <span style="color: #94a3b8;">75%</span>
-                        </div>
-                        <div class="bar-bg">
-                            <div class="bar-fill" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="bar-item">
-                        <div class="bar-header">
-                            <span>Git</span>
-                            <span style="color: #94a3b8;">55%</span>
-                        </div>
-                        <div class="bar-bg">
-                            <div class="bar-fill" style="width: 55%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" style="background: rgba(0, 0, 0, 0.2);">
-        <h2 class="section-title">Technical Arsenal</h2>
-        <p class="section-subtitle">Tools and technologies I work with daily</p>
-
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3>
-                    <i class="fas fa-code" style="color: #60a5fa;"></i>
-                    Python Stack
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Pandas</span>
-                    <span class="skill-tag">NumPy</span>
-                    <span class="skill-tag">Matplotlib</span>
-                    <span class="skill-tag">Seaborn</span>
-                    <span class="skill-tag">Scikit-learn</span>
-                </div>
-            </div>
-
-            <div class="skill-category">
-                <h3>
-                    <i class="fas fa-database" style="color: #a78bfa;"></i>
-                    SQL Stack
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">MySQL</span>
-                    <span class="skill-tag">PostgreSQL</span>
-                    <span class="skill-tag">Complex Joins</span>
-                    <span class="skill-tag">CTEs</span>
-                    <span class="skill-tag">Window Functions</span>
-                </div>
-            </div>
-
-            <div class="skill-category">
-                <h3>
-                    <i class="fas fa-chart-bar" style="color: #ec4899;"></i>
-                    Visualization Stack
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">Power BI</span>
-                    <span class="skill-tag">DAX</span>
-                    <span class="skill-tag">Power Query</span>
-                    <span class="skill-tag">Tableau</span>
-                </div>
-            </div>
-
-            <div class="skill-category">
-                <h3>
-                    <i class="fas fa-chart-line" style="color: #10b981;"></i>
-                    Excel Stack
-                </h3>
-                <div class="skill-tags">
-                    <span class="skill-tag">PivotTables</span>
-                    <span class="skill-tag">Advanced Formulas</span>
-                    <span class="skill-tag">Charts</span>
-                    <span class="skill-tag">Data Modeling</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <h2 class="section-title">Education</h2>
-        <p class="section-subtitle">Academic background that supports my data journey</p>
-
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3>
-                    <i class="fas fa-graduation-cap" style="color: #22c55e;"></i>
-                    Bachelor's Degree
-                </h3>
-                <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
-                    <strong>Bachelor's degree in Communications &amp; Electronics Engineering</strong><br>
-                    Mansoura Higher Institute of Engineering and Technology
-                </p>
-                <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
-                    <strong>Duration:</strong> 2020 → 2025<br>
-                    <strong>GPA:</strong> 2.98<br>
-                    <strong>Graduation Project:</strong> A+
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certifications Section -->
-    <section id="certifications" style="background: rgba(0, 0, 0, 0.2);">
-        <h2 class="section-title">Certifications</h2>
-        <p class="section-subtitle">Structured learning and credentials</p>
-
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3>
-                    <i class="fas fa-certificate" style="color: #facc15;"></i>
-                    Professional Certifications
-                </h3>
-                <!-- <CHANGE> Added clickable certificate links with real URLs -->
-                <ul style="color: var(--muted); line-height: 1.9; padding-left: 1.2rem; list-style: disc;">
-                    <li><a href="https://drive.google.com/file/d/1fxMo7cJM3SFS4St9CsPhdN74lfzQCZW0/view" target="_blank" rel="noopener noreferrer" class="cert-link">Data Analysis with Excel Power Tools – Datacamp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1N_8r5VOAKhnBr--Xh-mb7k6maGj_S4_m/view" target="_blank" rel="noopener noreferrer" class="cert-link">Excel Fundamentals – Datacamp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1Fr4LeW0yweDKgIFM3YH2FwfeDzJnYEMj/view" target="_blank" rel="noopener noreferrer" class="cert-link">Data Analyst in Power BI – Datacamp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1TnPW4Gg9yT5CK_TJZ63MU1theX8wXgNH/view" target="_blank" rel="noopener noreferrer" class="cert-link">Power BI Fundamentals – Datacamp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1UV5J_0RfqE-SDHwOLtBunIBLJi_kkv9f/view" target="_blank" rel="noopener noreferrer" class="cert-link">Data Analyst in Python – Datacamp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1gIxxIg-MiaCgR_Le0BflwvteMI9FmJa9/view" target="_blank" rel="noopener noreferrer" class="cert-link">Python Data Fundamentals – Datacamp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1cg5CYe99Ma0FVOS-wtfn88Ws9Ev7n4Dl/view" target="_blank" rel="noopener noreferrer" class="cert-link">Science of Statistics for Data Science & AI – Unihance</a></li>
-                </ul>
-            </div>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <h2 class="section-title">Featured Projects</h2>
+        <h2 class="section-title"> Projects</h2>
         <p class="section-subtitle">Real-world data analytics solutions</p>
 
         <div class="projects-grid">
@@ -1125,6 +869,8 @@ End-to-end analysis of global layoffs using SQL & Power BI. Built a full ETL pip
                         <span class="tech-badge">Python</span>
                         <span class="tech-badge">Pandas</span>
                         <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">Seaborn</span>
+
                     </div>
                     <a href="https://github.com/loayayman/World-population-EDA" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub
@@ -1144,12 +890,128 @@ End-to-end analysis of global layoffs using SQL & Power BI. Built a full ETL pip
                         <span class="tech-badge">Power BI</span>
                         <span class="tech-badge">DAX</span>
                         <span class="tech-badge">Power Query</span>
+                        <span class="tech-badge">ETL</span>
+                        <span class="tech-badge">Data Modeling</span>
                     </div>
                     <a href="https://github.com/loayayman/HR-Analysis" target="_blank" rel="noopener noreferrer" class="project-link">
                         View on GitHub
                         <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" style="background: rgba(0, 0, 0, 0.2);">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <p class="section-subtitle">Tools and technologies I work with daily</p>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-code" style="color: #60a5fa;"></i>
+                    Python Stack
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">NumPy</span>
+                    <span class="skill-tag">Matplotlib</span>
+                    <span class="skill-tag">Seaborn</span>
+                    <span class="skill-tag">Scikit-learn</span>
+                    <span class="skill-tag">SciPy</span>
+
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-database" style="color: #a78bfa;"></i>
+                    SQL Stack
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Complex Joins</span>
+                    <span class="skill-tag">CTEs</span>
+                    <span class="skill-tag">Window Functions</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+                 <i class="fas fa-chart-line" style="color: #d327ab;"></i>
+                    Visualization Stack
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Tableau</span>
+                    <span class="skill-tag">DAX</span>
+                    <span class="skill-tag">Power Query</span>                            <span class="skill-tag">Data Modeling</span>
+
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>
+             <i class="fas fa-chart-bar" style="color: #259b50;"></i>
+                    Excel Stack
+                </h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">PivotTables</span>
+                    <span class="skill-tag">Advanced Functions</span>
+                    <span class="skill-tag">Charts</span>
+                    <span class="skill-tag">Data Modeling</span>                      
+                    <span class="skill-tag">Power Pivot</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Academic background that supports my data journey</p>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-graduation-cap" style="color: #22c55e;"></i>
+                    Bachelor's Degree
+                </h3>
+                <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
+                    <strong>Bachelor's degree in Communications &amp; Electronics Engineering</strong><br>
+                    Mansoura Higher Institute of Engineering and Technology
+                </p>
+                <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
+                    <strong>Duration:</strong> 2020 : 2025<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" style="background: rgba(0, 0, 0, 0.2);">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Structured learning and credentials</p>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>
+                    <i class="fas fa-certificate" style="color: #facc15;"></i>
+                    Professional Certifications
+                </h3>
+                <!-- <CHANGE> Added clickable certificate links with real URLs -->
+                <ul style="color: var(--muted); line-height: 1.9; padding-left: 1.2rem; list-style: disc;">
+                    <li><a href="https://drive.google.com/file/d/1fxMo7cJM3SFS4St9CsPhdN74lfzQCZW0/view" target="_blank" rel="noopener noreferrer" class="cert-link">Data Analysis with Excel Power Tools – Datacamp</a></li>
+                    <li><a href="https://drive.google.com/file/d/1N_8r5VOAKhnBr--Xh-mb7k6maGj_S4_m/view" target="_blank" rel="noopener noreferrer" class="cert-link">Excel Fundamentals – Datacamp</a></li>
+                    <li><a href="https://drive.google.com/file/d/1Fr4LeW0yweDKgIFM3YH2FwfeDzJnYEMj/view" target="_blank" rel="noopener noreferrer" class="cert-link">Data Analyst in Power BI – Datacamp</a></li>
+                    <li><a href="https://drive.google.com/file/d/1TnPW4Gg9yT5CK_TJZ63MU1theX8wXgNH/view" target="_blank" rel="noopener noreferrer" class="cert-link">Power BI Fundamentals – Datacamp</a></li>
+                    <li><a href="https://drive.google.com/file/d/1UV5J_0RfqE-SDHwOLtBunIBLJi_kkv9f/view" target="_blank" rel="noopener noreferrer" class="cert-link">Data Analyst in Python – Datacamp</a></li>
+                    <li><a href="https://drive.google.com/file/d/1gIxxIg-MiaCgR_Le0BflwvteMI9FmJa9/view" target="_blank" rel="noopener noreferrer" class="cert-link">Python Data Fundamentals – Datacamp</a></li>
+                    <li><a href="https://drive.google.com/file/d/1cg5CYe99Ma0FVOS-wtfn88Ws9Ev7n4Dl/view" target="_blank" rel="noopener noreferrer" class="cert-link">Science of Statistics for Data Science & AI – Unihance</a></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -1205,8 +1067,7 @@ End-to-end analysis of global layoffs using SQL & Power BI. Built a full ETL pip
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Loay Ayman Mohamed. All rights reserved.</p>
-        <p>Crafted with <span style="color: #ef4444;">♥</span> and data</p>
+        <p>&copy; 2025 Loay Ayman</p>
     </footer>
 
     <script>
