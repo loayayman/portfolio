@@ -824,125 +824,147 @@
             </p>
         </div>
     </section>
-
-    
-    <!-- Projects Section -->
-    <section id="projects">
-    <h2 class="section-title">Projects</h2>
-    <p class="section-subtitle">Real-world data analytics projects</p>
-    <!-- Sales Analysis -->
+<section id="projects" style="background-color: #0f172a; padding: 60px 20px;">
+    <!-- <h2 class="section-title" style="color: #f8fafc; text-align: center; margin-bottom: 10px;">Projects</h2> -->
+    <!-- <p class="section-subtitle" style="color: #94a3b8; text-align: center; margin-bottom: 40px;">Hover image for GitHub • Hover card to cycle pages</p> -->
+<section id="projects" style="background-color: #0f172a; padding: 80px 20px;">
+    <h2 class="section-title" style="color: #f8fafc; text-align: center; font-size: 2.5rem; margin-bottom: 10px;">Projects</h2>
+    <p class="section-subtitle" style="color: #94a3b8; text-align: center; font-size: 1.1rem; margin-bottom: 50px;">Real-world data analytics projects</p>
+<!-- <section id="projects" style="background-color: #0f172a; padding: 80px 20px;">
+    <h2 class="section-title" style="color: #f8fafc; text-align: center; font-size: 2.5rem; margin-bottom: 10px;">Projects</h2>
+    <p class="section-subtitle" style="color: #94a3b8; text-align: center; font-size: 1.1rem; margin-bottom: 50px;">Real-world data analytics projects</p> -->
 
     <div class="projects-grid">
-        
+            <!-- sales-->
+
         <div class="project-card">
             <div class="project-header">
-                <a href="https://github.com/loayayman/Sales-Analysis" target="_blank" rel="noopener noreferrer" class="project-overlay">
+                <input type="radio" name="sales-gallery" id="sales-pg1" checked>
+                <input type="radio" name="sales-gallery" id="sales-pg2">
+                <input type="radio" name="sales-gallery" id="sales-pg3">
+                <input type="radio" name="sales-gallery" id="sales-pg4">
+                <input type="radio" name="sales-gallery" id="sales-pg5">
+
+                <img src="https://raw.githubusercontent.com/loayayman/Sales-Analysis/refs/heads/main/Images/Nav.png" class="slide s1"><img src="https://raw.githubusercontent.com/loayayman/Sales-Analysis/refs/heads/main/Images/Overview.png" class="slide s2">
+                <img src="https://raw.githubusercontent.com/loayayman/Sales-Analysis/refs/heads/main/Images/Products.png" class="slide s3"><img src="https://raw.githubusercontent.com/loayayman/Sales-Analysis/refs/heads/main/Images/Customers.png" class="slide s4">
+                <img src="https://raw.githubusercontent.com/loayayman/Sales-Analysis/refs/heads/main/Images/Geographics.png" class="slide s5">
+
+                <a href="https://github.com/loayayman/Sales-Analysis" target="_blank" class="project-overlay">
                     <i class="fab fa-github"></i>
                 </a>
-                <img src="https://raw.githubusercontent.com/loayayman/Sales-Analysis/refs/heads/main/Images/Overview.png" alt="Sales Analysis Dashboard">
-            </div>
 
+                <div class="slider-nav">
+                    <label for="sales-pg1"></label><label for="sales-pg2"></label>
+                    <label for="sales-pg3"></label><label for="sales-pg4"></label>
+                    <label for="sales-pg5"></label>
+                </div>
+            </div>
             <div class="project-body">
                 <h3>Sales Analysis</h3>
-                <p>
-                    • Built an end-to-end ETL pipeline for 60,000+ records using Python and Power Query.<br>
-                    • Identified key revenue drivers ($293.8M Total Revenue) and optimized profit margins (37.3%).<br>
-                    • Engineered 8+ DAX measures for KPIs including ROI and Gross Profit Margin.
-                </p>
+                <p>• Built an end-to-end ETL pipeline for 60,000+ records using Python and Power Query.<br>
+                   • Identified key revenue drivers ($293.8M Total Revenue) and optimized profit margins (37.3%).<br>
+                   • Engineered 8+ DAX measures for KPIs including ROI and Gross Profit Margin.</p>
                 <div class="project-tech">
-                    <span class="tech-badge">Python</span>
-                    <span class="tech-badge">Pandas</span>
-                    <span class="tech-badge">Power BI</span>
-                    <span class="tech-badge">DAX</span>
-                    <span class="tech-badge">SQL</span>
+                    <span class="tech-badge">Python</span><span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Power BI</span><span class="tech-badge">DAX</span><span class="tech-badge">SQL</span>
                 </div>
-                <a href="https://github.com/loayayman/Sales-Analysis" target="_blank" class="project-link">
-                    View Repository <i class="fas fa-arrow-right"></i>
-                </a>
             </div>
         </div>
-    <!-- HR Analysis -->
+            <!-- hr-->
 
         <div class="project-card">
             <div class="project-header">
-                <a href="https://github.com/loayayman/HR-Analysis" target="_blank" rel="noopener noreferrer" class="project-overlay">
+                <input type="radio" name="hr-gallery" id="hr-pg1" checked>
+                <input type="radio" name="hr-gallery" id="hr-pg2">
+                <input type="radio" name="hr-gallery" id="hr-pg3">
+                <input type="radio" name="hr-gallery" id="hr-pg4">
+
+                <img src="https://raw.githubusercontent.com/loayayman/HR-Analysis/refs/heads/main/Dashboard/1.Overview.png" class="slide s1"><img src="https://raw.githubusercontent.com/loayayman/HR-Analysis/refs/heads/main/Dashboard/2.Demographics.png" class="slide s2">
+                <img src="https://raw.githubusercontent.com/loayayman/HR-Analysis/refs/heads/main/Dashboard/3.Performance%20Tracker.png" class="slide s3"><img src="https://raw.githubusercontent.com/loayayman/HR-Analysis/refs/heads/main/Dashboard/4.Attrition.png" class="slide s4">
+
+                <a href="https://github.com/loayayman/HR-Analysis" target="_blank" class="project-overlay">
                     <i class="fab fa-github"></i>
                 </a>
-                <img src="https://raw.githubusercontent.com/loayayman/portfolio/refs/heads/main/1.Overview2.png" alt="HR Analytics Dashboard">
-            </div>
 
+                <div class="slider-nav">
+                    <label for="hr-pg1"></label><label for="hr-pg2"></label>
+                    <label for="hr-pg3"></label><label for="hr-pg4"></label>
+                </div>
+            </div>
             <div class="project-body">
                 <h3>HR Analysis</h3>
-                <p>
-                    • Automated ETL for 6,000+ HR records, architecting a Star-Schema data model.<br>
-                    • Engineered 15+ DAX measures to track Attrition Rate and Tenure Metrics.<br>
-                    • Uncovered turnover correlations among low-tenure staff to guide retention strategies.
-                </p>
+                <p>• Automated ETL for 6,000+ HR records, architecting a Star-Schema data model.<br>
+                   • Engineered 15+ DAX measures to track Attrition Rate and Tenure Metrics.<br>
+                   • Uncovered turnover correlations among low-tenure staff to guide retention strategies.</p>
                 <div class="project-tech">
-                    <span class="tech-badge">Power BI</span>
-                    <span class="tech-badge">DAX</span>
-                    <span class="tech-badge">Power Query</span>
-                    <span class="tech-badge">Data Modeling</span>
+                    <span class="tech-badge">Power BI</span><span class="tech-badge">DAX</span>
+                    <span class="tech-badge">Power Query</span><span class="tech-badge">Data Modeling</span>
                 </div>
-                <a href="https://github.com/loayayman/HR-Analysis" target="_blank" class="project-link">
-                    View Repository <i class="fas fa-arrow-right"></i>
-                </a>
             </div>
         </div>
-    <!-- Layoffs Analysis -->
+        
+            <!--layoffs-->
 
         <div class="project-card">
             <div class="project-header">
-                <a href="https://github.com/loayayman/Layoffs-Analysis" target="_blank" rel="noopener noreferrer" class="project-overlay">
+                <input type="radio" name="lay-gal" id="l1" checked><input type="radio" name="lay-gal" id="l2">
+                <input type="radio" name="lay-gal" id="l3"><input type="radio" name="lay-gal" id="l4">
+                <input type="radio" name="lay-gal" id="l5"><input type="radio" name="lay-gal" id="l6">
+                <input type="radio" name="lay-gal" id="l7"><input type="radio" name="lay-gal" id="l8">
+
+                <img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/1.Overview.png" class="slide s1"><img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/2.Industry.png" class="slide s2">
+                <img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/3.Comany.png" class="slide s3"><img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/4.Country.png" class="slide s4">
+                <img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/5.Stage.png" class="slide s5"><img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/6.Funding%20Impact.png" class="slide s6">
+                <img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/7.Time%20Trends.png" class="slide s7"><img src="https://raw.githubusercontent.com/loayayman/Layoffs-Analysis/refs/heads/main/Screenshots/8.Top%205.png" class="slide s8">
+
+                <a href="https://github.com/loayayman/Layoffs-Analysis" target="_blank" class="project-overlay">
                     <i class="fab fa-github"></i>
                 </a>
-                <img src="https://raw.githubusercontent.com/loayayman/portfolio/refs/heads/main/1.Overview1.png" alt="Layoffs Analysis Dashboard">
-            </div>
 
+                <div class="slider-nav">
+                    <label for="l1"></label><label for="l2"></label><label for="l3"></label><label for="l4"></label>
+                    <label for="l5"></label><label for="l6"></label><label for="l7"></label><label for="l8"></label>
+                </div>
+            </div>
             <div class="project-body">
                 <h3>Layoffs Analysis</h3>
-                <p>
-                    • Conducted end-to-end SQL analysis of global layoff trends.<br>
-                    • Built a 7-page Power BI dashboard to visualize industry-specific impacts.<br>
-                    • Performed exploratory analysis (EDA) to identify top companies and sectors per year.
-                </p>
+                <p>• Conducted end-to-end SQL analysis of global layoff trends.<br>
+                   • Built a 7-page Power BI dashboard to visualize industry-specific impacts.<br>
+                   • Performed exploratory analysis (EDA) to identify top companies and sectors per year.</p>
                 <div class="project-tech">
-                    <span class="tech-badge">MySQL</span>
-                    <span class="tech-badge">Power BI</span>
-                    <span class="tech-badge">SQL Queries</span>
-                    <span class="tech-badge">ETL</span>
+                    <span class="tech-badge">MySQL</span><span class="tech-badge">Power BI</span>
+                    <span class="tech-badge">SQL Queries</span><span class="tech-badge">ETL</span>
                 </div>
-                <a href="https://github.com/loayayman/Layoffs-Analysis" target="_blank" class="project-link">
-                    View Repository <i class="fas fa-arrow-right"></i>
-                </a>
             </div>
         </div>
-    <!-- World population EDA -->
 
+
+            <!-- EDA-->
         <div class="project-card">
             <div class="project-header">
-                <a href="https://github.com/loayayman/World-population-EDA" target="_blank" rel="noopener noreferrer" class="project-overlay">
+                <input type="radio" name="pop-gal" id="p1" checked>
+                <input type="radio" name="pop-gal" id="p2">
+                <input type="radio" name="pop-gal" id="p3">
+
+                <img src="https://raw.githubusercontent.com/loayayman/World-population-EDA/refs/heads/main/Screanshots/Heatmap.png" class="slide s1"><img src="https://raw.githubusercontent.com/loayayman/World-population-EDA/refs/heads/main/Screanshots/Population_Trends.png" class="slide s2"><img src="https://raw.githubusercontent.com/loayayman/World-population-EDA/refs/heads/main/Screanshots/Boxplot.png" class="slide s3">
+
+                <a href="https://github.com/loayayman/World-population-EDA" target="_blank" class="project-overlay">
                     <i class="fab fa-github"></i>
                 </a>
-                <img src="https://raw.githubusercontent.com/loayayman/portfolio/refs/heads/main/Heatmap.png" alt="World Population EDA">
-            </div>
 
+                <div class="slider-nav">
+                    <label for="p1"></label><label for="p2"></label><label for="p3"></label>
+                </div>
+            </div>
             <div class="project-body">
                 <h3>World Population (EDA)</h3>
-                <p>
-                    • Python-based exploratory analysis of global demographic distributions.<br>
-                    • Visualized population growth patterns using Heatmaps and Line charts.<br>
-                    • Cleaned and pre-processed large-scale CSV datasets using Pandas and NumPy.
-                </p>
+                <p>• Python-based exploratory analysis of global demographic distributions.<br>
+                   • Visualized population growth patterns using Heatmaps and Line charts.<br>
+                   • Cleaned and pre-processed large-scale CSV datasets using Pandas and NumPy.</p>
                 <div class="project-tech">
-                    <span class="tech-badge">Python</span>
-                    <span class="tech-badge">Pandas</span>
-                    <span class="tech-badge">Seaborn</span>
-                    <span class="tech-badge">Matplotlib</span>
+                    <span class="tech-badge">Python</span><span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Seaborn</span><span class="tech-badge">Matplotlib</span>
                 </div>
-                <a href="https://github.com/loayayman/World-population-EDA" target="_blank" class="project-link">
-                    View Repository <i class="fas fa-arrow-right"></i>
-                </a>
             </div>
         </div>
 
@@ -950,67 +972,58 @@
 </section>
 
 <style>
-    .project-header {
-        position: relative;
-        height: 220px;
-        overflow: hidden;
-        background: #000;
-    }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 2.5rem; max-width: 1200px; margin: 0 auto; }
+    .project-card { background: #1e293b; border-radius: 16px; overflow: hidden; border: 1px solid #334155; transition: transform 0.3s; }
+    .project-header { position: relative; height: 230px; background: #020617; overflow: hidden; }
+    .project-header input { display: none; }
+    .slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.8s ease; }
 
-    .project-header img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.5s ease, opacity 0.5s ease;
-    }
+    /* Simplified Show Logic */
+    #sales-pg1:checked ~ .s1, #sales-pg2:checked ~ .s2, #sales-pg3:checked ~ .s3, #sales-pg4:checked ~ .s4, #sales-pg5:checked ~ .s5,
+    #hr-pg1:checked ~ .s1, #hr-pg2:checked ~ .s2, #hr-pg3:checked ~ .s3, #hr-pg4:checked ~ .s4,
+    #l1:checked ~ .s1, #l2:checked ~ .s2, #l3:checked ~ .s3, #l4:checked ~ .s4, #l5:checked ~ .s5, #l6:checked ~ .s6, #l7:checked ~ .s7, #l8:checked ~ .s8,
+    #p1:checked ~ .s1, #p2:checked ~ .s2, #p3:checked ~ .s3 { opacity: 1; }
 
-    .project-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(2, 6, 23, 0.8); /* Dark glass effect */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        z-index: 10;
-        transition: opacity 0.4s ease;
-        text-decoration: none;
-    }
+    .project-overlay { position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85); display: flex; justify-content: center; align-items: center; opacity: 0; z-index: 5; transition: opacity 0.4s; }
+    .project-header:hover .project-overlay { opacity: 1; }
+    .project-overlay i { color: white; font-size: 3.5rem; transform: scale(0.7); transition: 0.4s; }
+    .project-header:hover .project-overlay i { transform: scale(1); }
 
-    .project-overlay i {
-        color: #fff;
-        font-size: 3.5rem;
-        transform: scale(0.5);
-        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        text-shadow: 0 0 20px rgba(59, 130, 246, 0.8);
-    }
+    .project-body { padding: 1.5rem; }
+    .project-body h3 { color: #f8fafc; font-size: 1.4rem; margin-bottom: 0.8rem; }
+    .project-body p { color: #94a3b8; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.2rem; }
+    .tech-badge { display: inline-block; background: rgba(59, 130, 246, 0.1); color: #60a5fa; padding: 5px 12px; border-radius: 20px; font-size: 0.75rem; margin-right: 8px; margin-bottom: 8px; border: 1px solid rgba(59, 130, 246, 0.2); }
 
-    .project-card:hover .project-overlay {
-        opacity: 1;
-    }
+    .slider-nav { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10; }
+    .slider-nav label { width: 8px; height: 8px; background: rgba(255,255,255,0.2); border-radius: 50%; cursor: pointer; }
 
-    .project-card:hover .project-overlay i {
-        transform: scale(1);
-    }
-
-    .project-card:hover .project-header img {
-        transform: scale(1.1);
-        opacity: 0.4;
-    }
-
-    /* Fixing grid spacing for 2x2 layout on desktop */
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 2.5rem;
-        padding: 1rem;
+    /* Active Dot Highlight */
+    .project-header input:nth-of-type(1):checked ~ .slider-nav label:nth-of-type(1),
+    .project-header input:nth-of-type(2):checked ~ .slider-nav label:nth-of-type(2),
+    .project-header input:nth-of-type(3):checked ~ .slider-nav label:nth-of-type(3),
+    .project-header input:nth-of-type(4):checked ~ .slider-nav label:nth-of-type(4),
+    .project-header input:nth-of-type(5):checked ~ .slider-nav label:nth-of-type(5),
+    .project-header input:nth-of-type(6):checked ~ .slider-nav label:nth-of-type(6),
+    .project-header input:nth-of-type(7):checked ~ .slider-nav label:nth-of-type(7),
+    .project-header input:nth-of-type(8):checked ~ .slider-nav label:nth-of-type(8) {
+        background: #3b82f6; width: 18px; border-radius: 10px;
     }
 </style>
 
-    <!-- Skills Section -->
+<script>
+    document.querySelectorAll('.project-card').forEach(card => {
+        let cycleTimer;
+        card.addEventListener('mouseenter', () => {
+            cycleTimer = setInterval(() => {
+                const radios = card.querySelectorAll('input[type="radio"]');
+                let cur = Array.from(radios).findIndex(r => r.checked);
+                radios[(cur + 1) % radios.length].checked = true;
+            }, 3000); 
+        });
+        card.addEventListener('mouseleave', () => clearInterval(cycleTimer));
+    });
+</script>
+</script>    <!-- Skills Section -->
     <section id="skills" style="background: rgba(0, 0, 0, 0.2);">
         <h2 class="section-title">Technical Skills </h2>
         <p class="section-subtitle">Tools and technologies I work with daily</p>
@@ -1063,7 +1076,7 @@
             <div class="skill-category">
                 <h3>
                  <i class="fas fa-chart-line" style="color: #d327ab;"></i>
-                    Visualize Stack
+                    Visualization Stack
                 </h3>
                 <div class="skill-tags">
                     <span class="skill-tag">Power BI</span>
