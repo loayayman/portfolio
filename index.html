@@ -20,21 +20,6 @@
             --secondary: #3b82f6;
             --accent: #0ea5e9;
 
-            /* Light theme (default) */
-            --bg: #f4f4f5;
-            --bg-alt: #e4e4e7;
-            --bg-gradient: radial-gradient(circle at top left, #dbeafe 0%, #f4f4f5 40%, #eef2ff 70%, #e0f2fe 100%);
-            --text: #020617;
-            --muted: #4b5563;
-            --card-bg: rgba(255, 255, 255, 0.9);
-            --card-border: rgba(15, 23, 42, 0.08);
-            --input-bg: #f4f4f5;
-            --input-border: rgba(15, 23, 42, 0.15);
-            --nav-bg: rgba(255, 255, 255, 0.9);
-            --footer-border: rgba(15, 23, 42, 0.1);
-        }
-
-        body.dark-theme {
             --bg: #020617;
             --bg-alt: rgba(15, 23, 42, 0.8);
             --bg-gradient: radial-gradient(circle at top left, #020617 0%, #0f172a 40%, #1e1b4b 70%, #020617 100%);
@@ -709,31 +694,6 @@
             margin-bottom: 0.5rem;
         }
 
-        .theme-toggle {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            border-radius: 999px;
-            border: 1px solid var(--card-border);
-            padding: 0.4rem 0.9rem;
-            background: rgba(148, 163, 184, 0.1);
-            color: var(--text);
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-weight: 500;
-            transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .theme-toggle i {
-            font-size: 1rem;
-        }
-
-        .theme-toggle:hover {
-            transform: translateY(-2px);
-            background: rgba(129, 140, 248, 0.15);
-            border-color: #6366f1;
-        }
-
         /* <CHANGE> Added styling for certificate links */
         .cert-link {
             color: #3b82f6;
@@ -772,8 +732,7 @@
             <div class="logo">Loay Ayman</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#certifications">Certifications</a></li>
@@ -828,43 +787,7 @@
             </p>
         </div>
     </section>
-    
-    <section id="aboutme" style="padding: 80px 20px;">
-    <h2 class="section-title">About Me</h2>
-    
-    <div class="contact-grid" style="align-items: center;">
-        <div class="contact-info">
-            <h3>Who am I?</h3>
-            <p>
-                I am a <strong>Data Analyst</strong> with an <strong>Engineering background</strong>, and hands-on experience managing the full data lifecycle from bulding ETL pipeline, 
-                data transformation, data cleaning, data visualization, and data analysis proficient in <strong>SQL (SQL Server, MySQL, PostgreSQL), Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, PySpark), Power BI (DAX, Data Modeling, Star-Schema, Dashboard Design), Excel (Power Query, Power Pivot, Pivot Tables, Functions), and 
-                strong foundations in data engineering (ETL/ELT Pipeline, Data Lake, Data Warehouse, OLAP, OLTP)</strong>. Experienced in turning raw messy data into clear data-driven insights that support smart decisions. </strong>
-            </p>
-        </div>
-<!-- 
-        <div class="skills-grid" style="grid-template-columns: 1fr 1fr; gap: 1.5rem;">
-            <div class="kpi-card" style="padding: 1.5rem; text-align: center;">
-                <div class="kpi-value" style="font-size: 2.2rem; color: #60a5fa;">150k+</div>
-                <div class="kpi-label">Records Processed [cite: 22]</div>
-            </div>
-            <div class="kpi-card" style="padding: 1.5rem; text-align: center;">
-                <div class="kpi-value" style="font-size: 2.2rem; color: #a78bfa;">23+</div>
-                <div class="kpi-label">Complex DAX Measures </div>
-            </div>
-            <div class="kpi-card" style="padding: 1.5rem; text-align: center;">
-                <div class="kpi-value" style="font-size: 2.2rem; color: #10b981;">A+</div>
-                <div class="kpi-label">Graduation Project [cite: 34]</div>
-            </div>
-            <div class="kpi-card" style="padding: 1.5rem; text-align: center;">
-                <div class="kpi-value" style="font-size: 2.2rem; color: #f59e0b;">B2</div>
-                <div class="kpi-label">English Level [cite: 46]</div>
-            </div>
-        </div> -->
-    </div>
-</section>
-
-
-<section id="projects" style="background-color: #0f172a; padding: 6px 20px;">
+<section id="projects" style="background-color: #0f172a; padding: 60px 20px;">
     <!-- <h2 class="section-title" style="color: #f8fafc; text-align: center; margin-bottom: 10px;">Projects</h2> -->
     <!-- <p class="section-subtitle" style="color: #94a3b8; text-align: center; margin-bottom: 40px;">Hover image for GitHub • Hover card to cycle pages</p> -->
 <section id="projects" style="background-color: #0f172a; padding: 80px 20px;">
@@ -1187,7 +1110,12 @@
                     <i class="fas fa-graduation-cap" style="color: #22c55e;"></i>
                     Bachelor's Degree in Communications &amp; Electronics Engineering
                 </h3>
-           
+                <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
+                    Mansoura Higher Institute of Engineering and Technology
+                </p>
+                <p style="color: var(--muted); line-height: 1.8; margin-bottom: 1rem;">
+                    <strong>Duration:</strong> 2020 : 2025<br>
+                </p>
             </div>
         </div>
     </section>
@@ -1272,36 +1200,6 @@
     </footer>
 
     <script>
-        // ... existing code ...
-        // Theme initialization
-        (function () {
-            const storedTheme = localStorage.getItem('theme');
-            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            const body = document.body;
-
-            if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
-                body.classList.add('dark-theme');
-            }
-
-            const toggleButton = document.getElementById('theme-toggle');
-            const updateToggleLabel = () => {
-                const isDark = body.classList.contains('dark-theme');
-                const icon = toggleButton.querySelector('i');
-                const label = toggleButton.querySelector('span');
-              
-            };
-
-            if (toggleButton) {
-                toggleButton.addEventListener('click', () => {
-                    body.classList.toggle('dark-theme');
-                    const isDark = body.classList.contains('dark-theme');
-                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-                    updateToggleLabel();
-                });
-                updateToggleLabel();
-            }
-        })();
-
         // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
